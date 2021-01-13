@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300238632151",
+    "project_id": "androidapp-db5a5",
+    "storage_bucket": "androidapp-db5a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300238632151:android:18512e6db76d351bc86c92",
+        "android_client_info": {
+          "package_name": "in.astudentzone.anubhav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300238632151-0d6g4fnstco5o310eu6dt3d9bcu7ib3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8B8qOvCh6JkhHCyaOaA_M9Gu47iKO_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300238632151-0d6g4fnstco5o310eu6dt3d9bcu7ib3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

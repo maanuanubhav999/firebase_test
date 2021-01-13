@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmitNewApplicaiton"
+    android:windowSoftInputMode="adjustResize|stateHidden">
+
+    <EditText
+        android:id="@+id/clientMobileNumber"
+        android:layout_width="250dp"
+        android:inputType="numberSigned"
+        android:maxLength="10"
+        android:hint="Enter Client Mobile Number"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:text= "validate Mobile number"
+        android:id="@+id/clientMobileNumberSubmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/clientMobileNumber"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="20dp"
+        />
+
+
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/propertPG"
+        android:hint="Property/PG name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clientMobileNumberSubmission"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:visibility="invisible"
+
+        android:id="@+id/city"
+        android:hint="city"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/propertPG"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:visibility="invisible"
+
+        android:id="@+id/areaLocality"
+        android:hint="Area/Locality"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/city"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:visibility="invisible"
+
+        android:id="@+id/ownerName"
+        android:hint="Owner Nmae(optional)"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/areaLocality"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:visibility="invisible"
+
+        android:id="@+id/preferredLang"
+        android:hint="preferred language(optional)"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ownerName"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/submitButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="submit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preferredLang" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
